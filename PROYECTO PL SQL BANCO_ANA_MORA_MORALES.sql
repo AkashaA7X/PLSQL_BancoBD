@@ -3,8 +3,8 @@
 /*BLOQUE PRINCIPAL ANONIMO*/
 DECLARE
     v_opcion NUMBER:=&opcion;
-    v_nombre cliente.nombre%TYPE:='Eusebio';--&nombreCliente;
-    v_apellidos cliente.apellidos%TYPE:='Pérez Honda';--&apellidosCliente;
+    v_nombre cliente.nombre%TYPE:=&nombreCliente;
+    v_apellidos cliente.apellidos%TYPE:=&apellidosCliente;
     v_posibilidad NUMBER;
     v_posibilidad2 NUMBER;
 BEGIN
